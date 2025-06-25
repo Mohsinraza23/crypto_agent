@@ -1,1 +1,1 @@
-web: chainlit run main.py --port $PORT --no-browser
+web: chainlit run main.py --port $PORT --host 0.0.0.0 --no-browser
